@@ -23,11 +23,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: AvenirNextLTPro;
+  background-color: var(--primary);
 }
 .app-container {
   background-color: var(--primary);
   padding: 20px;
   padding-bottom: 0;
+  max-width: 420px;
+  margin: 0 auto;
 }
 /* HERO */
 
@@ -72,6 +75,7 @@ body {
 }
 
 .button-opt {
+  cursor: pointer;
   background: none;
   border: 0;
   color: white;
@@ -140,6 +144,7 @@ body {
   padding: 0 50px;
 }
 .nav > ul > li {
+  cursor: pointer;
   list-style: none;
 }
 
